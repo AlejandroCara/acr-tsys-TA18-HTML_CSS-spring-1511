@@ -1,0 +1,16 @@
+body {
+    max-width: 620px;
+    background-color: #F0F8FF;
+}
+
+h1, h2 {
+    font-style: italic; 
+}
+
+p, ol {
+    font-size: 5;
+}
+
+li{
+    margin-bottom: 20px;
+}

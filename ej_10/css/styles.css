@@ -1,0 +1,96 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    padding-left: 260px;
+    letter-spacing: 5px;
+}
+
+.darkGreenText {
+    color: #5D8B03;
+}
+
+.brownText {
+    color: #BF7D2F;
+}
+
+h2 {
+    color: #92B61A;
+    border-bottom: 1px solid #e4e7de;
+}
+
+h3 {
+    color: #C6864C;
+}
+
+#container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container div{
+    border: 2px solid lightgray;
+    padding: 20px;
+    width: 700px;
+    float:right;
+    background: rgb(220,220,220);
+    background: linear-gradient(180deg, rgba(220,220,220,1) 0%, rgba(255,255,255,1) 12%, rgba(255,255,255,1) 92%, rgba(220,220,220,1) 100%);
+}
+
+ul {
+    float: left;
+    margin-top: 80px;
+}
+
+li {
+    list-style: none;
+}
+
+li:first{
+    background-color: #E5CDB2;
+}
+
+li a:hover{
+    background-color: #E5CDB2;
+}
+
+
+
+li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    width: 180px;
+    border: 1px solid lightgray;
+    margin-bottom: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 27%, rgba(203,231,131,1) 68%);
+}
+
+#footer{
+    width: 800px;
+    float: right;
+    text-align: center;
+    font-size: 14px;
+    color: #E1E1E1;
+}
+
+.selected {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 27%, rgba(229,205,178,1) 68%);
+    font-weight: bold;
+}
+
+#footer a{
+    color: #E1E1E1;
+}
+
+img {
+    width: 1000px;
+}
